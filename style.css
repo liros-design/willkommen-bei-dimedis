@@ -42,6 +42,11 @@ body {
   width: 100%;           
 }
 
+
+.marquee-inner {
+  display: inline-block;
+}
+
 .text {
   font-size: 200px;
   font-weight: 700;
@@ -59,3 +64,6 @@ body {
   max-width: 200px;
   
 }
+
+
+
