@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "TT Norms Pro";
+  src: url("https://github.com/liros-design/GSAP-Test/raw/11c5c5db9a173ad27bde75089ddd06763d2dc08a/TTNormsPro-Regular.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "TT Norms Pro", sans-serif;
+  display: flex;
+  align: vertical;
+  width: 1920px;
+  height: 1080px;
+  margin: 0;
+  padding: 0;
+
+}
+
+.background-class{
+
+  background: linear-gradient(to right, #1E49D5, #96AEFC);
+  width: 1920px;
+  height: 1080px;
+  padding: 60px;
+  justify-content: left;
+
+}
+
+.marquee-text {
+  font-size: 80px;
+  font-weight: 400;
+  color: white;
+  display: inline-block;
+  
+ 
+}
+
+.marquee {
+  overflow: hidden;  
+  white-space: nowrap;   
+  width: 100%;           
+}
+
+.text {
+  font-size: 200px;
+  font-weight: 700;
+  color: white;
+ 
+}
+
+.event-logo {
+  display: flex;
+  padding-top: 800px;
+ 
+}
+
+.event-logo img {
+  max-width: 200px;
+  
+}
